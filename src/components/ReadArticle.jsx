@@ -1,11 +1,11 @@
-function ReadArticle({mode, title, desc, defficult, onChangeMode}){
+function ReadArticle({mode, title, desc, difficult, onChangeMode}){
   console.log('ReadArticle render');
   return(
     <section>
       <article>
         <h2>{title}</h2>
         <p>{desc}</p>  
-        <p>난이도 : {defficult}</p> 
+        <p>난이도 : {difficult}</p> 
         {
           mode !== 'welcome' && (
           <>
